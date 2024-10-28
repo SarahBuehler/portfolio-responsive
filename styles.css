@@ -1,3 +1,7 @@
 section{
     height: 500px;
 }
+
+nav a {
+    text-decoration: none;
+}
