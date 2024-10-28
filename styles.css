@@ -4,6 +4,7 @@ section{
 
 footer {
     height: 150px;
+    background-color: red;
 }
 
 nav a {
