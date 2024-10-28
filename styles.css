@@ -1,6 +1,10 @@
+nav {
+    height: 150px;
+    background-color: lightskyblue;
+}
+
 nav a {
     text-decoration: none;
-    height: 150px;
 }
 
 section{
