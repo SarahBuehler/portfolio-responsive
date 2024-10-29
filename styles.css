@@ -5,7 +5,7 @@ body{
     position: relative;
 }
 
-/* Zum Seitenanfang */
+/* Zum Seitenanfang Link rechts unten */
 .scroll-container {
     position: absolute;
     top: 0;
@@ -32,13 +32,19 @@ nav {
     background-color: lightskyblue;
 }
 
+/* Navigation */
+
 nav a {
     text-decoration: none;
 }
 
+/* Mittelteil */
+
 section{
     height: 100vh;
 }
+
+/* Footer */
 
 footer {
     height: 150px;
