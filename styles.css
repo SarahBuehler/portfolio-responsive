@@ -17,6 +17,13 @@ html {
     pointer-events: none;
 }
 
+.scroll-container a {
+    position: sticky;
+    top: 88vh;
+    cursor: pointer;
+    font-size: 20px;
+}
+
 nav {
     height: 100px;
     background-color: lightskyblue;
