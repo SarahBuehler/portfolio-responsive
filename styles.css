@@ -1,52 +1,56 @@
 html {
-    scroll-behavior: smooth;
+  font-size: 10x;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
 }
-body{
-    position: relative;
+body {
+  position: relative;
 }
 
 /* Zum Seitenanfang Link rechts unten */
 .scroll-container {
-    position: absolute;
-    top: 0;
-    right:0;
-    height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
 }
 
-.scroll-container:before  {
-    content: '';
-    display: block;
-    height: 100vh;
-    pointer-events: none;
+.scroll-container:before {
+  content: "";
+  display: block;
+  height: 100vh;
+  pointer-events: none;
 }
 
 .scroll-container a {
-    position: sticky;
-    top: 88vh;
-    cursor: pointer;
-    font-size: 20px;
+  position: sticky;
+  top: 88vh;
+  cursor: pointer;
+  font-size: 2rem;
 }
 
 nav {
-    height: 100px;
-    background-color: lightskyblue;
+  height: 100px;
+  background-color: lightskyblue;
 }
 
 /* Navigation */
 
 nav a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* Mittelteil */
 
-section{
-    height: 100vh;
+section {
+  height: 100vh;
 }
 
 /* Footer */
 
 footer {
-    
-    background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
 }
