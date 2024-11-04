@@ -23,7 +23,10 @@
     color: var(--nav-text);
     font-family: sans-serif;
   }
-  
+  /* Farbe vom nach oben Link */
+  svg {
+    color: var(--nav-text);
+  }
   /* Zum Seitenanfang Link rechts unten */
   .scroll-container {
     position: absolute;
