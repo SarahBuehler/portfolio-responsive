@@ -24,8 +24,8 @@ body {
   font-family: sans-serif;
 }
 /* Farbe vom nach oben Link */
-svg {
-  color: #fefefd;
+.iconUp {
+    filter: invert(100%) sepia(7%) saturate(0%) hue-rotate(50deg) brightness(104%) contrast(107%);
 }
 /* Zum Seitenanfang Link rechts unten */
 .scroll-container {
