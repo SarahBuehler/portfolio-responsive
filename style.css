@@ -22,7 +22,6 @@ html {
 body {
   min-height: 100vh;
   background-color: var(--primary-color);
-  overflow: hidden; /* Hide scrollbars */
 }
 
 /* Farbe vom nach oben Link */
